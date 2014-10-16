@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<graph>
+    <panel type="Start" panelset="MenuSystem.xml" panelsetpath="C:/Users/Slasmir/Dropbox/OldPc Backup/WizzardWar/Assets/Scripts/ExtraSpellScripts/XMLStates/MenuSystem.xml" x="59" y="503" width="100" height="51" image="">
+        <ID>1000</ID>
+        <slots number="1">
+            <slot label="Spell" plug="output" color="" multiple="true">
+                <ID>1</ID>
+                <output ID="2" />
+                <output ID="6" />
+            </slot>
+        </slots>
+    </panel>
+    <panel type="Spell" panelset="MenuSystem.xml" panelsetpath="C:/Users/Slasmir/Dropbox/OldPc Backup/WizzardWar/Assets/Scripts/ExtraSpellScripts/XMLStates/MenuSystem.xml" x="305" y="386" width="200" height="102" image="">
+        <ID>1001</ID>
+        <slots number="4">
+            <slot label="Name" plug="input" content="string" color="" multiple="true">
+                <ID>2</ID>
+                <input ID="1" />
+                <data_string>Fireball</data_string>
+            </slot>
+            <slot label="Item" content="gameobject" color="" multiple="true">
+                <ID>3</ID>
+            </slot>
+            <slot label="Spell" content="gameobject" color="" multiple="true">
+                <ID>4</ID>
+                <data_string>Fireball</data_string>
+            </slot>
+            <slot label="Output" plug="output" color="" multiple="true">
+                <ID>5</ID>
+                <output ID="10" />
+                <output ID="14" />
+            </slot>
+        </slots>
+    </panel>
+    <panel type="Spell" panelset="MenuSystem.xml" panelsetpath="C:/Users/Slasmir/Dropbox/OldPc Backup/WizzardWar/Assets/Scripts/ExtraSpellScripts/XMLStates/MenuSystem.xml" x="302" y="564" width="200" height="102" image="">
+        <ID>1002</ID>
+        <slots number="4">
+            <slot label="Name" plug="input" content="string" color="" multiple="true">
+                <ID>6</ID>
+                <input ID="1" />
+                <data_string>Frostball</data_string>
+            </slot>
+            <slot label="Item" content="gameobject" color="" multiple="true">
+                <ID>7</ID>
+            </slot>
+            <slot label="Spell" content="gameobject" color="" multiple="true">
+                <ID>8</ID>
+                <data_string>FrostBall</data_string>
+            </slot>
+            <slot label="Output" plug="output" color="" multiple="true">
+                <ID>9</ID>
+                <output ID="18" />
+                <output ID="22" />
+            </slot>
+        </slots>
+    </panel>
+    <panel type="Spell" panelset="MenuSystem.xml" panelsetpath="C:/Users/Slasmir/Dropbox/OldPc Backup/WizzardWar/Assets/Scripts/ExtraSpellScripts/XMLStates/MenuSystem.xml" x="664" y="210" width="200" height="102" image="">
+        <ID>1003</ID>
+        <slots number="4">
+            <slot label="Name" plug="input" content="string" color="" multiple="true">
+                <ID>10</ID>
+                <input ID="5" />
+                <data_string>Firewall</data_string>
+            </slot>
+            <slot label="Item" content="gameobject" color="" multiple="true">
+                <ID>11</ID>
+            </slot>
+            <slot label="Spell" content="gameobject" color="" multiple="true">
+                <ID>12</ID>
+                <data_string>Firewall</data_string>
+            </slot>
+            <slot label="Output" plug="output" color="" multiple="true">
+                <ID>13</ID>
+            </slot>
+        </slots>
+    </panel>
+    <panel type="Spell" panelset="MenuSystem.xml" panelsetpath="C:/Users/Slasmir/Dropbox/OldPc Backup/WizzardWar/Assets/Scripts/ExtraSpellScripts/XMLStates/MenuSystem.xml" x="665" y="381" width="200" height="102" image="">
+        <ID>1004</ID>
+        <slots number="4">
+            <slot label="Name" plug="input" content="string" color="" multiple="true">
+                <ID>14</ID>
+                <input ID="5" />
+                <data_string>Firenova</data_string>
+            </slot>
+            <slot label="Item" content="gameobject" color="" multiple="true">
+                <ID>15</ID>
+            </slot>
+            <slot label="Spell" content="gameobject" color="" multiple="true">
+                <ID>16</ID>
+                <data_string>FireNova</data_string>
+            </slot>
+            <slot label="Output" plug="output" color="" multiple="true">
+                <ID>17</ID>
+            </slot>
+        </slots>
+    </panel>
+    <panel type="Spell" panelset="MenuSystem.xml" panelsetpath="C:/Users/Slasmir/Dropbox/OldPc Backup/WizzardWar/Assets/Scripts/ExtraSpellScripts/XMLStates/MenuSystem.xml" x="674" y="538" width="200" height="102" image="">
+        <ID>1005</ID>
+        <slots number="4">
+            <slot label="Name" plug="input" content="string" color="" multiple="true">
+                <ID>18</ID>
+                <input ID="9" />
+                <data_string>Frostnova</data_string>
+            </slot>
+            <slot label="Item" content="gameobject" color="" multiple="true">
+                <ID>19</ID>
+            </slot>
+            <slot label="Spell" content="gameobject" color="" multiple="true">
+                <ID>20</ID>
+                <data_string>FrostNova</data_string>
+            </slot>
+            <slot label="Output" plug="output" color="" multiple="true">
+                <ID>21</ID>
+            </slot>
+        </slots>
+    </panel>
+    <panel type="Spell" panelset="MenuSystem.xml" panelsetpath="C:/Users/Slasmir/Dropbox/OldPc Backup/WizzardWar/Assets/Scripts/ExtraSpellScripts/XMLStates/MenuSystem.xml" x="672" y="685" width="200" height="102" image="">
+        <ID>1006</ID>
+        <slots number="4">
+            <slot label="Name" plug="input" content="string" color="" multiple="true">
+                <ID>22</ID>
+                <input ID="9" />
+            </slot>
+            <slot label="Item" content="gameobject" color="" multiple="true">
+                <ID>23</ID>
+            </slot>
+            <slot label="Spell" content="gameobject" color="" multiple="true">
+                <ID>24</ID>
+            </slot>
+            <slot label="Output" plug="output" color="" multiple="true">
+                <ID>25</ID>
+            </slot>
+        </slots>
+    </panel>
+</graph>

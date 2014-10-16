@@ -1,0 +1,81 @@
+﻿------------------------------------------------------------------
+Tips for mobile project.
+------------------------------------------------------------------
+
+	1. There are SD/HD/UD textures for Asset_01. Switch them according to your target device capability.
+	2. If you use Unity terrain paint tool these parameters should be set to white color.
+		• Terrain's grass tint
+		• Grass brush's Healthy & Dry 
+	3. More grass on terrain costs runtime Draw Calls. Paint it less for better performance.
+	4. Beast Lightmapping is powerful tool. Use it after finished your scene to reduce draw calls.
+	5. Beast Lightmap parameters guide for good result and short baking time.
+		5.1 Parameters in Object tab
+			Intensity: 0.25 - 1
+			Bounce Intensity: 1
+			Shadow Samples: 100
+			Shadow Angle: 20			
+		5.1 Parameters in Bake tab (Forest, Grassland, Ruin, Wasteland and Lagoon scene)
+			Mode: Single Lightmaps
+			Quality: High
+			Bounces: 4
+			Sky Light Intensity: 0.25
+			Bounce Boost: 4
+			Bounce Intensity: 0.5
+			Final Gather Rays: 1500
+			Contrast Threshold: 0.012
+			Interpolation: 0
+			Interpolation Points: 30
+			Ambient Occlusion: 0
+			Resolution: 32 texels
+		5.2 Parameters in Bake tab (Cave scene)
+			Mode: Single Lightmaps
+			Quality: Low
+			Bounces: 1
+			Bounce Boost: 4
+			Bounce Intensity: 0.5
+			Final Gather Rays: 4000 or 6000	(good result and removed Lightmaps seams issue)
+			Contrast Threshold: 0.1
+			Interpolation: 0
+			Interpolation Point: 30
+			Ambient Occlusion: 0
+			Resolution:	8 to 16 up to your backing machine performance
+			Padding:	1 to 4
+
+------------------------------------------------------------------
+Recommend Unity's manual for mobile project
+------------------------------------------------------------------
+
+	• Future & High End Devices:
+		http://docs.unity3d.com/Documentation/Manual/iphone-FutureDevices.html
+	
+	• Graphics Methods
+		http://docs.unity3d.com/Documentation/Manual/iphone-OptimizedGraphicsMethods.html
+	
+	• Rendering Optimizations
+		http://docs.unity3d.com/Documentation/Manual/iphone-PracticalRenderingOptimizations.html
+	
+	• Optimizing Graphics Performance
+		http://docs.unity3d.com/Documentation/Manual/OptimizingGraphicsPerformance.html
+	
+	• Draw Call Batching
+		http://docs.unity3d.com/Documentation/Manual/DrawCallBatching.html
+	
+	• Modeling Characters for Optimal Performance
+		http://docs.unity3d.com/Documentation/Manual/ModelingOptimizedCharacters.html
+	
+	• Reducing File Size
+		http://docs.unity3d.com/Documentation/Manual/ReducingFilesize.html
+
+	• Lightmapping Quickstart
+		http://docs.unity3d.com/Documentation/Manual/Lightmapping.html
+
+	• Lightmapping In-Depth
+		http://docs.unity3d.com/Documentation/Manual/LightmappingInDepth.html
+
+------------------------------------------------------------------
+
+Thank you for your purchase.
+Enjoy your creation.
+
+G.E. Team Dev
+http://www.ge-team.com/

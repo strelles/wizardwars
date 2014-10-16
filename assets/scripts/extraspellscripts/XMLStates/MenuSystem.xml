@@ -1,0 +1,16 @@
+
+<panelset>	
+
+	<paneltype type = "Start" width = "100" > 
+		<slot label = "Spell" plug = "output" multiple = "true" />
+	</paneltype>	 
+			
+	<paneltype type = "Spell" >
+		<slot label = "Name"	content = "string" 		plug = "input"  />
+		<slot label = "Item" 	content = "gameobject" 					/>		
+		<slot label = "Spell"	content = "gameobject"					/>
+		<slot label = "Output" 	plug = "output" 	multiple = "true"	/>
+	</paneltype> 
+																							
+	
+</panelset>

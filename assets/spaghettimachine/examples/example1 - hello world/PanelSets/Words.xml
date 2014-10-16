@@ -1,0 +1,13 @@
+<panelset>	
+
+	<paneltype type = "Start">
+		<slot label = "Out" 	plug = "output" multiple = "false" />		
+	</paneltype>
+
+	<paneltype type = "Word">
+		<slot label = "In" 		plug = "input"  />	
+		<slot label = "Word" 	content = "string" />
+		<slot label = "Next" 	plug = "output" multiple = "false" />		
+	</paneltype>
+
+</panelset>

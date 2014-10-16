@@ -1,0 +1,36 @@
+
+<panelset>	
+			
+	<paneltype type = "StartLevel" width = "100" > 
+		<slot label = "Out"  	plug = "output" multiple = "true" />	
+	</paneltype>
+	
+	<paneltype type = "ShowBalloon" > 
+		<slot label = "NPC"  			content = "master" plug = "input" multiple = "true" />
+		<slot label = "When clicked"  	plug = "output" multiple = "true" />	
+	</paneltype>		 	 
+
+	<paneltype type = "HideBalloon" > 
+		<slot label = "NPC"  			content = "master" plug = "input" multiple = "true" />		
+	</paneltype>
+	
+	<paneltype type = "SetActive" > 
+		<slot label = "GameObject"  	content = "gameobject" plug = "input" multiple = "true" />	
+		<slot label = "Active"  		content = "bool" />	
+	</paneltype>
+
+	<paneltype type = "StartSound" > 
+		<slot label = "AudioSource"  	content = "gameobject" plug = "input" multiple = "true" />	
+	</paneltype>
+	
+	<paneltype type = "PlayAnimation" > 
+		<slot label = "GameObject"  	content = "gameobject" 	plug = "input" multiple = "true" />	
+		<slot label = "Animation"  		content = "string" 		default = "dance" />
+		<slot label = "When done"  		plug = "output" />	
+	</paneltype>	
+
+	<paneltype type = "ExitLevel" width = "100" > 
+		<slot label = "In"  	plug = "input" />	
+	</paneltype>																							
+	
+</panelset>

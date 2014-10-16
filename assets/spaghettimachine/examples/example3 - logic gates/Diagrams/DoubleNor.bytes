@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<graph>
+    <panel type="Input" x="-33" y="160" width="200" height="51" image="">
+        <ID>1000</ID>
+        <slots number="1">
+            <slot label="Name" plug="output" content="string" color="" multiple="true">
+                <ID>1</ID>
+                <output ID="3" />
+                <output ID="9" />
+                <output ID="10" />
+                <data_string>A</data_string>
+            </slot>
+        </slots>
+    </panel>
+    <panel type="Input" x="-33" y="297" width="200" height="51" image="">
+        <ID>1001</ID>
+        <slots number="1">
+            <slot label="Name" plug="output" content="string" color="" multiple="true">
+                <ID>2</ID>
+                <output ID="4" />
+                <output ID="12" />
+                <output ID="13" />
+                <data_string>B</data_string>
+            </slot>
+        </slots>
+    </panel>
+    <panel type="OR" x="286" y="90" width="86" height="103" image="OrGate">
+        <ID>1002</ID>
+        <slots number="3">
+            <slot label="In_1" plug="input" color="" multiple="false" plug_x="0" plug_y="0.33">
+                <ID>3</ID>
+                <input ID="1" />
+            </slot>
+            <slot label="In_2" plug="input" color="" multiple="false" plug_x="0" plug_y="0.66">
+                <ID>4</ID>
+                <input ID="2" />
+            </slot>
+            <slot label="Out" plug="output" color="" multiple="true" plug_x="1" plug_y="0.5">
+                <ID>5</ID>
+                <output ID="6" />
+            </slot>
+        </slots>
+    </panel>
+    <panel type="NOT" x="427" y="113" width="86" height="62" image="NotGate">
+        <ID>1003</ID>
+        <slots number="2">
+            <slot label="In_1" plug="input" color="" multiple="false" plug_x="0" plug_y="0.5">
+                <ID>6</ID>
+                <input ID="5" />
+            </slot>
+            <slot label="Out" plug="output" color="" multiple="true" plug_x="1" plug_y="0.5">
+                <ID>7</ID>
+                <output ID="8" />
+            </slot>
+        </slots>
+    </panel>
+    <panel type="Output" x="633" y="177" width="200" height="51" image="">
+        <ID>1004</ID>
+        <slots number="1">
+            <slot label="Name" plug="input" content="string" color="" multiple="false">
+                <ID>8</ID>
+                <input ID="7" />
+                <data_string>A nor B (1)</data_string>
+            </slot>
+        </slots>
+    </panel>
+    <panel type="NAND" x="286" y="241" width="86" height="103" image="NandGate">
+        <ID>1005</ID>
+        <slots number="3">
+            <slot label="In_1" plug="input" color="" multiple="false" plug_x="0" plug_y="0.33">
+                <ID>9</ID>
+                <input ID="1" />
+            </slot>
+            <slot label="In_2" plug="input" color="" multiple="false" plug_x="0" plug_y="0.66">
+                <ID>10</ID>
+                <input ID="1" />
+            </slot>
+            <slot label="Out" plug="output" color="" multiple="true" plug_x="1" plug_y="0.5">
+                <ID>11</ID>
+                <output ID="15" />
+            </slot>
+        </slots>
+    </panel>
+    <panel type="NAND" x="286" y="370" width="86" height="103" image="NandGate">
+        <ID>1006</ID>
+        <slots number="3">
+            <slot label="In_1" plug="input" color="" multiple="false" plug_x="0" plug_y="0.33">
+                <ID>12</ID>
+                <input ID="2" />
+            </slot>
+            <slot label="In_2" plug="input" color="" multiple="false" plug_x="0" plug_y="0.66">
+                <ID>13</ID>
+                <input ID="2" />
+            </slot>
+            <slot label="Out" plug="output" color="" multiple="true" plug_x="1" plug_y="0.5">
+                <ID>14</ID>
+                <output ID="16" />
+            </slot>
+        </slots>
+    </panel>
+    <panel type="NAND" x="427" y="292" width="86" height="103" image="NandGate">
+        <ID>1007</ID>
+        <slots number="3">
+            <slot label="In_1" plug="input" color="" multiple="false" plug_x="0" plug_y="0.33">
+                <ID>15</ID>
+                <input ID="11" />
+            </slot>
+            <slot label="In_2" plug="input" color="" multiple="false" plug_x="0" plug_y="0.66">
+                <ID>16</ID>
+                <input ID="14" />
+            </slot>
+            <slot label="Out" plug="output" color="" multiple="true" plug_x="1" plug_y="0.5">
+                <ID>17</ID>
+                <output ID="18" />
+                <output ID="19" />
+            </slot>
+        </slots>
+    </panel>
+    <panel type="NAND" x="554" y="292" width="86" height="103" image="NandGate">
+        <ID>1008</ID>
+        <slots number="3">
+            <slot label="In_1" plug="input" color="" multiple="false" plug_x="0" plug_y="0.33">
+                <ID>18</ID>
+                <input ID="17" />
+            </slot>
+            <slot label="In_2" plug="input" color="" multiple="false" plug_x="0" plug_y="0.66">
+                <ID>19</ID>
+                <input ID="17" />
+            </slot>
+            <slot label="Out" plug="output" color="" multiple="true" plug_x="1" plug_y="0.5">
+                <ID>20</ID>
+                <output ID="21" />
+            </slot>
+        </slots>
+    </panel>
+    <panel type="Output" x="724" y="317" width="200" height="51" image="">
+        <ID>1009</ID>
+        <slots number="1">
+            <slot label="Name" plug="input" content="string" color="" multiple="false">
+                <ID>21</ID>
+                <input ID="20" />
+                <data_string>A nor B (2)</data_string>
+            </slot>
+        </slots>
+    </panel>
+</graph>
